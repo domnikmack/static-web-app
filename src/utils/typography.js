@@ -1,3 +1,4 @@
 import Typography from 'typography';
-const typography = new Typography({baseFontSize: '18px'});
+import moragaTheme from 'typography-theme-moraga';
+const typography = new Typography(moragaTheme);
 export default typography;

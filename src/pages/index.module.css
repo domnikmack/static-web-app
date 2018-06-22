@@ -1,0 +1,8 @@
+.item {
+  border-bottom: solid 2px red;
+  margin: 1.7em 0;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
